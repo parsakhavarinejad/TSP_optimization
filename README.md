@@ -3,8 +3,6 @@
 ## Overview
 This repository provides a Python notebook with a class for solving Traveling Salesman Problems (TSP) using Pyomo and the CPLEX solver. The implemented class handles multiple TSP instances, and in the case where there is only one driver, it efficiently solves a simple TSP problem.
 
-The first cell of the notebook creates a symmetric matrix with the property of triangle inequality among different nodes, providing a suitable input for the TSP solving algorithm.
-
 ## Requirements
 - Pyomo
 - IBM CPLEX solver
